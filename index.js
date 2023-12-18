@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require('path'); // is this placeholder code? It doesnt seem to be needed. 
-const inquirer = require("inquirer");
+const inquirer = require('inquirer');
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
@@ -54,6 +54,13 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data, (err) => {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log("README.md has been generated!")
+      }
+    });
 }
 
 // function to initialize program
