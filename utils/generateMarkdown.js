@@ -1,10 +1,10 @@
 // function to generate markdown for README
 function generateMarkdown(response) {
   return `# ${response.title}
-  # ${reponse.title}
+  # ${response.title}
 
   ## Description
-  ${reponse.description}
+  ${response.description}
 
   ## Table of Contents
   - [Installation](#installation)
