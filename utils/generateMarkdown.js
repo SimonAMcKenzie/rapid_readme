@@ -30,7 +30,7 @@ function generateMarkdown(response) {
   ${response.tests}
 
   ## Questions
-  For any questions, please get in touch [${response.username}](https://hithub.com/${responses.username}) or email at ${responses.email}.
+  For any questions, please get in touch [${response.username}](https://github.com/${response.username}) or email at ${response.email}.
 `;
 }
 
