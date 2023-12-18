@@ -65,7 +65,12 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+  inquirer.prompt(questions).then((response) => {
+    // Generate the README content using the user's responses
+    const readmeContent = generateMarkdown(response);
+    const fileName = "README.md";
+    writeToFile(fileName, readmeContent);
+  });
 }
 
 // function call to initialize program
