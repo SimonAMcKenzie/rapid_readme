@@ -20,9 +20,8 @@ This command-line application dynamically generates a professional README.md fil
 
 1. Run 'node index.js'
 2. Answer the prompts to provide information about your project.
-3. Here is a demo: 
 
-[Watch the Demo Video]<iframe width="560" height="315" src="https://www.youtube.com/embed/vHjyr-ZdEhU?si=jfETYDoQFPW_HUut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[Watch the Demo Video](https://www.youtube.com/watch?v=vHjyr-ZdEhU)
 
 ## License 🪪
 
