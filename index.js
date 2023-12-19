@@ -1,5 +1,5 @@
 const fs = require(`fs`);
-const path = require(`path`); // is this placeholder code? It doesnt seem to be needed. 
+//const path = require(`path`); 
 const inquirer = require(`inquirer`);
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -47,8 +47,13 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
-    message: "Please provide your GitHub username and email address so that developers can get in touch:"
+    name: "username",
+    message: "What is your GitHub username?"
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?"
   },
 ];
 
